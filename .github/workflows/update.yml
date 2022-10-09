@@ -8,7 +8,7 @@ name: Mark stale issues and pull requests
 on:
   schedule:
   - cron: '32 7 * * *'
-
+  workflow_dispatch:
 jobs:
   sh-update-file:
     runs-on: ubuntu-latest
