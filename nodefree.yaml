@@ -47,27 +47,27 @@ proxies:
 proxy-groups:
   - name: 🇭🇰 香港节点
     type: url-test
-    url: http://www.gstatic.com/generate_204
-    tolerance: 50
-    interval: 300
+ url: http://www.gstatic.com/generate_204
+ tolerance: 50
+ interval: 300
     proxies:
       - 🇭🇰 _HK_香港
       - 🇭🇰 _CN_中国->🇭🇰_HK_香港
       - 🇭🇰 _CN_中国->🇭🇰_HK_香港 2
   - name: 🇯🇵 日本节点
     type: url-test
-    url: http://www.gstatic.com/generate_204
-    tolerance: 50
-    interval: 300
+ url: http://www.gstatic.com/generate_204
+ tolerance: 50
+ interval: 300
     proxies:
       - 🇯🇵 _JP_日本
       - 🇯🇵 _JP_日本 2
       - 🇯🇵 _JP_日本 3
   - name: 🇺🇲 美国节点
     type: url-test
-    url: http://www.gstatic.com/generate_204
-    tolerance: 50
-    interval: 300
+ url: http://www.gstatic.com/generate_204
+ tolerance: 50
+ interval: 300
     proxies:
       - 🇺🇸 _US_美国
       - 🇺🇸 _US_美国 2
@@ -76,31 +76,31 @@ proxy-groups:
       - 🇺🇸 _US_美国 5
   - name: 🇨🇳 台湾节点
     type: url-test
-    url: http://www.gstatic.com/generate_204
-    tolerance: 50
-    interval: 300
+ url: http://www.gstatic.com/generate_204
+ tolerance: 50
+ interval: 300
     proxies:
       - DIRECT
   - name: 🇸🇬 狮城节点
     type: url-test
-    url: http://www.gstatic.com/generate_204
-    tolerance: 50
-    interval: 300
+ url: http://www.gstatic.com/generate_204
+ tolerance: 50
+ interval: 300
     proxies:
       - 🇸🇬 _SG_新加坡
   - name: 🇰🇷 韩国节点
     type: url-test
-    url: http://www.gstatic.com/generate_204
-    tolerance: 50
-    interval: 300
+ url: http://www.gstatic.com/generate_204
+ tolerance: 50
+ interval: 300
     proxies:
       - 🇰🇷 _KR_韩国
       - 🇰🇷 _KR_韩国 2
   - name: 🌍 其他地区
     type: url-test
-    url: http://www.gstatic.com/generate_204
-    tolerance: 50
-    interval: 300
+ url: http://www.gstatic.com/generate_204
+ tolerance: 50
+ interval: 300
     proxies:
       - 🇬🇧 _GB_英国
       - _CN_中国->🇧🇭_BH_巴林
@@ -113,9 +113,9 @@ proxy-groups:
       - 🇷🇺 _RU_俄罗斯联邦 3
   - name: ♻️ 专线节点
     type: url-test
-    url: http://www.gstatic.com/generate_204
-    tolerance: 50
-    interval: 300
+ url: http://www.gstatic.com/generate_204
+ tolerance: 50
+ interval: 300
     proxies:
       - _CN_中国->🇧🇭_BH_巴林
       - _CN_中国->🇧🇭_BH_巴林 2
@@ -124,9 +124,9 @@ proxy-groups:
       - _CN_中国
   - name: ♻️ 手动切换
     type: url-test
-    url: http://www.gstatic.com/generate_204
-    tolerance: 50
-    interval: 300
+ url: http://www.gstatic.com/generate_204
+ tolerance: 50
+ interval: 300
     proxies:
       - 🇰🇷 _KR_韩国
       - 🇺🇸 _US_美国
@@ -158,10 +158,7 @@ proxy-groups:
       - 🇷🇺 _RU_俄罗斯联邦 2
       - 🇷🇺 _RU_俄罗斯联邦 3
   - name: 📲 聊天软件
-    type: url-test
-    url: http://www.gstatic.com/generate_204
-    tolerance: 50
-    interval: 300
+    type: select
     proxies:
       - 🇭🇰 香港节点
       - 🇯🇵 日本节点
@@ -174,10 +171,7 @@ proxy-groups:
       - ♻️ 手动切换
       - DIRECT
   - name: 🎬 YouTube
-    type: url-test
-    url: http://www.gstatic.com/generate_204
-    tolerance: 50
-    interval: 300
+    type: select
     proxies:
       - 🇭🇰 香港节点
       - 🇯🇵 日本节点
@@ -190,10 +184,7 @@ proxy-groups:
       - ♻️ 手动切换
       - DIRECT
   - name: 🎬 NETFLIX
-    type: url-test
-    url: http://www.gstatic.com/generate_204
-    tolerance: 50
-    interval: 300
+    type: select
     proxies:
       - 🇸🇬 狮城节点
       - 🇭🇰 香港节点
@@ -206,10 +197,7 @@ proxy-groups:
       - ♻️ 手动切换
       - DIRECT
   - name: 🎬 Prime
-    type: url-test
-    url: http://www.gstatic.com/generate_204
-    tolerance: 50
-    interval: 300
+    type: select
     proxies:
       - 🇭🇰 香港节点
       - 🇯🇵 日本节点
@@ -222,10 +210,7 @@ proxy-groups:
       - ♻️ 手动切换
       - DIRECT
   - name: 🎬 DisneyPlus
-    type: url-test
-    url: http://www.gstatic.com/generate_204
-    tolerance: 50
-    interval: 300
+    type: select
     proxies:
       - 🇭🇰 香港节点
       - 🇯🇵 日本节点
@@ -238,10 +223,7 @@ proxy-groups:
       - ♻️ 手动切换
       - DIRECT
   - name: 🎬 HBO GO
-    type: url-test
-    url: http://www.gstatic.com/generate_204
-    tolerance: 50
-    interval: 300
+    type: select
     proxies:
       - 🇭🇰 香港节点
       - 🇯🇵 日本节点
@@ -254,10 +236,7 @@ proxy-groups:
       - ♻️ 手动切换
       - DIRECT
   - name: 🎬 HBO MAX
-    type: url-test
-    url: http://www.gstatic.com/generate_204
-    tolerance: 50
-    interval: 300
+    type: select
     proxies:
       - 🇭🇰 香港节点
       - 🇯🇵 日本节点
@@ -270,10 +249,7 @@ proxy-groups:
       - ♻️ 手动切换
       - DIRECT
   - name: 🎬 EMBY
-    type: url-test
-    url: http://www.gstatic.com/generate_204
-    tolerance: 50
-    interval: 300
+    type: select
     proxies:
       - 🇭🇰 香港节点
       - 🇯🇵 日本节点
@@ -286,10 +262,7 @@ proxy-groups:
       - ♻️ 手动切换
       - DIRECT
   - name: 🎬 巴哈姆特
-    type: url-test
-    url: http://www.gstatic.com/generate_204
-    tolerance: 50
-    interval: 300
+    type: select
     proxies:
       - 🇨🇳 台湾节点
       - 🇭🇰 香港节点
@@ -302,10 +275,7 @@ proxy-groups:
       - ♻️ 手动切换
       - DIRECT
   - name: 🎬 日韩媒体
-    type: url-test
-    url: http://www.gstatic.com/generate_204
-    tolerance: 50
-    interval: 300
+    type: select
     proxies:
       - 🇯🇵 日本节点
       - 🇭🇰 香港节点
@@ -318,10 +288,7 @@ proxy-groups:
       - ♻️ 手动切换
       - DIRECT
   - name: 🎬 国外媒体
-    type: url-test
-    url: http://www.gstatic.com/generate_204
-    tolerance: 50
-    interval: 300
+    type: select
     proxies:
       - 🇭🇰 香港节点
       - 🇯🇵 日本节点
@@ -334,10 +301,7 @@ proxy-groups:
       - ♻️ 手动切换
       - DIRECT
   - name: 🎬 港台媒体
-    type: url-test
-    url: http://www.gstatic.com/generate_204
-    tolerance: 50
-    interval: 300
+    type: select
     proxies:
       - 🇭🇰 香港节点
       - 🇯🇵 日本节点
@@ -350,10 +314,7 @@ proxy-groups:
       - ♻️ 手动切换
       - DIRECT
   - name: 🌏 国外网站
-    type: url-test
-    url: http://www.gstatic.com/generate_204
-    tolerance: 50
-    interval: 300
+    type: select
     proxies:
       - 🇭🇰 香港节点
       - 🇯🇵 日本节点
@@ -366,10 +327,7 @@ proxy-groups:
       - ♻️ 手动切换
       - DIRECT
   - name: "🇧🇹 BT&PT"
-    type: url-test
-    url: http://www.gstatic.com/generate_204
-    tolerance: 50
-    interval: 300
+    type: select
     proxies:
       - DIRECT
       - 🇭🇰 香港节点
@@ -382,10 +340,7 @@ proxy-groups:
       - ♻️ 专线节点
       - ♻️ 手动切换
   - name: 🎵 Spotify
-    type: url-test
-    url: http://www.gstatic.com/generate_204
-    tolerance: 50
-    interval: 300
+    type: select
     proxies:
       - 🇭🇰 香港节点
       - 🇯🇵 日本节点
@@ -398,10 +353,7 @@ proxy-groups:
       - ♻️ 手动切换
       - DIRECT
   - name: 🎵 TikTok
-    type: url-test
-    url: http://www.gstatic.com/generate_204
-    tolerance: 50
-    interval: 300
+    type: select
     proxies:
       - 🇯🇵 日本节点
       - 🇭🇰 香港节点
@@ -414,10 +366,7 @@ proxy-groups:
       - ♻️ 手动切换
       - DIRECT
   - name: 🍎 苹果服务
-    type: url-test
-    url: http://www.gstatic.com/generate_204
-    tolerance: 50
-    interval: 300
+    type: select
     proxies:
       - DIRECT
       - 🇭🇰 香港节点
@@ -430,10 +379,7 @@ proxy-groups:
       - ♻️ 专线节点
       - ♻️ 手动切换
   - name: 🧩 微软服务
-    type: url-test
-    url: http://www.gstatic.com/generate_204
-    tolerance: 50
-    interval: 300
+    type: select
     proxies:
       - DIRECT
       - 🇭🇰 香港节点
@@ -446,10 +392,7 @@ proxy-groups:
       - ♻️ 专线节点
       - ♻️ 手动切换
   - name: 🎬 爱奇艺
-    type: url-test
-    url: http://www.gstatic.com/generate_204
-    tolerance: 50
-    interval: 300
+    type: select
     proxies:
       - DIRECT
       - 🇭🇰 香港节点
@@ -462,10 +405,7 @@ proxy-groups:
       - ♻️ 专线节点
       - ♻️ 手动切换
   - name: 🎬 哔哩哔哩
-    type: url-test
-    url: http://www.gstatic.com/generate_204
-    tolerance: 50
-    interval: 300
+    type: select
     proxies:
       - DIRECT
       - 🇭🇰 香港节点
@@ -478,10 +418,7 @@ proxy-groups:
       - ♻️ 专线节点
       - ♻️ 手动切换
   - name: 🎮 游戏平台
-    type: url-test
-    url: http://www.gstatic.com/generate_204
-    tolerance: 50
-    interval: 300
+    type: select
     proxies:
       - DIRECT
       - 🇭🇰 香港节点
@@ -494,10 +431,7 @@ proxy-groups:
       - ♻️ 专线节点
       - ♻️ 手动切换
   - name: 🌏 国内网站
-    type: url-test
-    url: http://www.gstatic.com/generate_204
-    tolerance: 50
-    interval: 300
+    type: select
     proxies:
       - DIRECT
       - 🇭🇰 香港节点
@@ -510,10 +444,7 @@ proxy-groups:
       - ♻️ 专线节点
       - ♻️ 手动切换
   - name: 🐟 漏网之鱼
-    type: url-test
-    url: http://www.gstatic.com/generate_204
-    tolerance: 50
-    interval: 300
+    type: select
     proxies:
       - DIRECT
       - 🇭🇰 香港节点
