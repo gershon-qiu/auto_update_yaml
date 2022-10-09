@@ -47,27 +47,27 @@ proxies:
 proxy-groups:
   - name: 🇭🇰 香港节点
     type: url-test
- url: http://www.gstatic.com/generate_204
- tolerance: 50
- interval: 300
+    url: http://www.gstatic.com/generate_204
+    tolerance: 50
+    interval: 300
     proxies:
       - 🇭🇰 _HK_香港
       - 🇭🇰 _CN_中国->🇭🇰_HK_香港
       - 🇭🇰 _CN_中国->🇭🇰_HK_香港 2
   - name: 🇯🇵 日本节点
     type: url-test
- url: http://www.gstatic.com/generate_204
- tolerance: 50
- interval: 300
+    url: http://www.gstatic.com/generate_204
+    tolerance: 50
+    interval: 300
     proxies:
       - 🇯🇵 _JP_日本
       - 🇯🇵 _JP_日本 2
       - 🇯🇵 _JP_日本 3
   - name: 🇺🇲 美国节点
     type: url-test
- url: http://www.gstatic.com/generate_204
- tolerance: 50
- interval: 300
+    url: http://www.gstatic.com/generate_204
+    tolerance: 50
+    interval: 300
     proxies:
       - 🇺🇸 _US_美国
       - 🇺🇸 _US_美国 2
@@ -76,31 +76,31 @@ proxy-groups:
       - 🇺🇸 _US_美国 5
   - name: 🇨🇳 台湾节点
     type: url-test
- url: http://www.gstatic.com/generate_204
- tolerance: 50
- interval: 300
+    url: http://www.gstatic.com/generate_204
+    tolerance: 50
+    interval: 300
     proxies:
       - DIRECT
   - name: 🇸🇬 狮城节点
     type: url-test
- url: http://www.gstatic.com/generate_204
- tolerance: 50
- interval: 300
+    url: http://www.gstatic.com/generate_204
+    tolerance: 50
+    interval: 300
     proxies:
       - 🇸🇬 _SG_新加坡
   - name: 🇰🇷 韩国节点
     type: url-test
- url: http://www.gstatic.com/generate_204
- tolerance: 50
- interval: 300
+    url: http://www.gstatic.com/generate_204
+    tolerance: 50
+    interval: 300
     proxies:
       - 🇰🇷 _KR_韩国
       - 🇰🇷 _KR_韩国 2
   - name: 🌍 其他地区
     type: url-test
- url: http://www.gstatic.com/generate_204
- tolerance: 50
- interval: 300
+    url: http://www.gstatic.com/generate_204
+    tolerance: 50
+    interval: 300
     proxies:
       - 🇬🇧 _GB_英国
       - _CN_中国->🇧🇭_BH_巴林
@@ -113,9 +113,9 @@ proxy-groups:
       - 🇷🇺 _RU_俄罗斯联邦 3
   - name: ♻️ 专线节点
     type: url-test
- url: http://www.gstatic.com/generate_204
- tolerance: 50
- interval: 300
+    url: http://www.gstatic.com/generate_204
+    tolerance: 50
+    interval: 300
     proxies:
       - _CN_中国->🇧🇭_BH_巴林
       - _CN_中国->🇧🇭_BH_巴林 2
@@ -124,9 +124,9 @@ proxy-groups:
       - _CN_中国
   - name: ♻️ 手动切换
     type: url-test
- url: http://www.gstatic.com/generate_204
- tolerance: 50
- interval: 300
+    url: http://www.gstatic.com/generate_204
+    tolerance: 50
+    interval: 300
     proxies:
       - 🇰🇷 _KR_韩国
       - 🇺🇸 _US_美国
