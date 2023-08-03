@@ -9,7 +9,7 @@
 <meta name="applicable-device" content="pc,mobile" />
 <meta http-equiv="Cache-Control" content="no-transform" />
 <link rel="shortcut icon" href="https://nodefree.org/wp-content/uploads/2022/04/favicon.png" />
-<link rel='stylesheet' id='stylesheet-css' href='//nodefree.org/wp-content/uploads/wpcom/style.6.12.2.1685053427.css?ver=6.12.2' type='text/css' media='all' />
+<link rel='stylesheet' id='stylesheet-css' href='//nodefree.org/wp-content/uploads/wpcom/style.6.12.2.1691021913.css?ver=6.12.2' type='text/css' media='all' />
 <link rel='stylesheet' id='font-awesome-css' href='https://nodefree.org/wp-content/themes/justnews/themer/assets/css/font-awesome.css?ver=6.12.2' type='text/css' media='all' />
 <link rel='stylesheet' id='wp-block-library-css' href='https://nodefree.org/wp-includes/css/dist/block-library/style.min.css?ver=6.2.2' type='text/css' media='all' />
 <link rel='stylesheet' id='classic-theme-styles-css' href='https://nodefree.org/wp-includes/css/classic-themes.min.css?ver=6.2.2' type='text/css' media='all' />
@@ -25,13 +25,13 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://nodefree.org/xmlrpc.php?rsd" />
 <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://nodefree.org/wp-includes/wlwmanifest.xml" />
 <meta name="cdp-version" content="1.4.1" />
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-200793263-3"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-T90KBG7F1F"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'UA-200793263-3');
+  gtag('config', 'G-T90KBG7F1F');
 </script>
 <meta name="onesignal" content="wordpress-plugin" />
 <script>
