@@ -27,7 +27,7 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 <script type="text/javascript" src="https://nodefree.org/wp-includes/js/jquery/jquery.min.js?ver=3.7.0" id="jquery-core-js"></script>
 <script type="text/javascript" src="https://nodefree.org/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
 <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://nodefree.org/xmlrpc.php?rsd" />
-<meta name="cdp-version" content="1.4.2" />
+<meta name="cdp-version" content="1.4.3" />
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-T90KBG7F1F"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
