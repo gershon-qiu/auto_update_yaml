@@ -24,70 +24,18 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 .wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}
 </style>
 <link rel="stylesheet" id="core-css" href="https://nodefree.org/wp-content/plugins/fb-reply/css/fbao_reply.css?ver=6.4.3" type="text/css" media="all" />
-<script type="a88177da37d1a62dcc5290bb-text/javascript" src="https://nodefree.org/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
-<script type="a88177da37d1a62dcc5290bb-text/javascript" src="https://nodefree.org/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
+<script type="8b87689351bfa67955c43d14-text/javascript" src="https://nodefree.org/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
+<script type="8b87689351bfa67955c43d14-text/javascript" src="https://nodefree.org/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
 <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://nodefree.org/xmlrpc.php?rsd" />
-<meta name="cdp-version" content="1.4.4" />
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-T90KBG7F1F" type="a88177da37d1a62dcc5290bb-text/javascript"></script>
-<script type="a88177da37d1a62dcc5290bb-text/javascript">
+<meta name="cdp-version" content="1.4.6" />
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-T90KBG7F1F" type="8b87689351bfa67955c43d14-text/javascript"></script>
+<script type="8b87689351bfa67955c43d14-text/javascript">
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
   gtag('config', 'G-T90KBG7F1F');
 </script>
-<meta name="onesignal" content="wordpress-plugin" />
-<script type="a88177da37d1a62dcc5290bb-text/javascript">
-
-      window.OneSignal = window.OneSignal || [];
-
-      OneSignal.push( function() {
-        OneSignal.SERVICE_WORKER_UPDATER_PATH = 'OneSignalSDKUpdaterWorker.js';
-                      OneSignal.SERVICE_WORKER_PATH = 'OneSignalSDKWorker.js';
-                      OneSignal.SERVICE_WORKER_PARAM = { scope: '/wp-content/plugins/onesignal-free-web-push-notifications/sdk_files/push/onesignal/' };
-        OneSignal.setDefaultNotificationUrl("https://nodefree.org");
-        var oneSignal_options = {};
-        window._oneSignalInitOptions = oneSignal_options;
-
-        oneSignal_options['wordpress'] = true;
-oneSignal_options['appId'] = '5c2700e7-0ebe-4100-8e06-9a1af799aa39';
-oneSignal_options['allowLocalhostAsSecureOrigin'] = true;
-oneSignal_options['welcomeNotification'] = { };
-oneSignal_options['welcomeNotification']['title'] = "";
-oneSignal_options['welcomeNotification']['message'] = "感谢您的订阅！";
-oneSignal_options['path'] = "https://nodefree.org/wp-content/plugins/onesignal-free-web-push-notifications/sdk_files/";
-oneSignal_options['safari_web_id'] = "web.onesignal.auto.504512c8-952a-4d80-9d02-48e16e3cc659";
-oneSignal_options['promptOptions'] = { };
-oneSignal_options['promptOptions']['actionMessage'] = "有免费节点更新，我们会发送通知给您！";
-oneSignal_options['promptOptions']['acceptButtonText'] = "允许";
-oneSignal_options['promptOptions']['cancelButtonText'] = "不用了";
-oneSignal_options['notifyButton'] = { };
-oneSignal_options['notifyButton']['enable'] = true;
-oneSignal_options['notifyButton']['position'] = 'bottom-left';
-oneSignal_options['notifyButton']['theme'] = 'default';
-oneSignal_options['notifyButton']['size'] = 'medium';
-oneSignal_options['notifyButton']['showCredit'] = true;
-oneSignal_options['notifyButton']['text'] = {};
-oneSignal_options['notifyButton']['text']['tip.state.unsubscribed'] = '订阅网站通知';
-                OneSignal.init(window._oneSignalInitOptions);
-                      });
-
-      function documentInitOneSignal() {
-        var oneSignal_elements = document.getElementsByClassName("OneSignal-prompt");
-
-        var oneSignalLinkClickHandler = function(event) { OneSignal.push(['registerForPushNotifications']); event.preventDefault(); };        for(var i = 0; i < oneSignal_elements.length; i++)
-          oneSignal_elements[i].addEventListener('click', oneSignalLinkClickHandler, false);
-      }
-
-      if (document.readyState === 'complete') {
-           documentInitOneSignal();
-      }
-      else {
-           window.addEventListener("load", function(event){
-               documentInitOneSignal();
-          });
-      }
-    </script>
 <link rel="icon" href="https://nodefree.org/wp-content/uploads/2022/04/favicon-150x150.png" sizes="32x32" />
 <link rel="icon" href="https://nodefree.org/wp-content/uploads/2022/04/favicon.png" sizes="192x192" />
 <link rel="apple-touch-icon" href="https://nodefree.org/wp-content/uploads/2022/04/favicon.png" />
@@ -112,8 +60,6 @@ oneSignal_options['notifyButton']['text']['tip.state.unsubscribed'] = '订阅网
 <div class="collapse navbar-collapse">
 <nav class="primary-menu"><ul id="menu-nav" class="nav navbar-nav wpcom-adv-menu"><li class="menu-item menu-item-has-image"><a href="https://nodefree.org/f/freenode"><i class="wpcom-icon fa fa-angellist menu-item-icon"></i>免费节点</a></li>
 <li class="menu-item menu-item-has-image"><a href="https://nodefree.org/f/tutorial"><i class="wpcom-icon fa fa-bookmark-o menu-item-icon"></i>使用教程</a></li>
-<li class="menu-item menu-item-has-image"><a target="_blank" href="https://www.ckcloud.shop/#/register?code=b1VfiLOG"><i class="wpcom-icon fa fa-paper-plane-o menu-item-icon"></i>推荐机场</a></li>
-<li class="menu-item menu-item-has-image"><a target="_blank" href="https://t.me/nodefreechannel"><i class="wpcom-icon fa fa-telegram menu-item-icon"></i>电报群</a></li>
 </ul></nav> <div class="navbar-action">
 <div class="navbar-search-icon j-navbar-search"><i class="wpcom-icon wi"><svg aria-hidden="true"><use xlink:href="#wi-search"></use></svg></i></div>
 </div>
@@ -157,19 +103,18 @@ oneSignal_options['notifyButton']['text']['tip.state.unsubscribed'] = '订阅网
 <div class="action-item gotop j-top">
 <i class="wpcom-icon wi action-item-icon"><svg aria-hidden="true"><use xlink:href="#wi-arrow-up-2"></use></svg></i> </div>
 </div>
-<script type="a88177da37d1a62dcc5290bb-text/javascript">
+<script type="8b87689351bfa67955c43d14-text/javascript">
 var _paq = window._paq = window._paq || [];
 _paq.push(['trackPageView']);_paq.push(['enableLinkTracking']);_paq.push(['alwaysUseSendBeacon']);_paq.push(['setTrackerUrl', "\/\/nodefree.org\/wp-content\/plugins\/matomo\/app\/matomo.php"]);_paq.push(['setSiteId', '1']);var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
 g.type='text/javascript'; g.async=true; g.src="\/\/nodefree.org\/wp-content\/uploads\/matomo\/matomo.js"; s.parentNode.insertBefore(g,s);
 </script>
-<script type="a88177da37d1a62dcc5290bb-text/javascript" id="main-js-extra">
+<script type="8b87689351bfa67955c43d14-text/javascript" id="main-js-extra">
 /* <![CDATA[ */
 var _wpcom_js = {"webp":"","ajaxurl":"https:\/\/nodefree.org\/wp-admin\/admin-ajax.php","theme_url":"https:\/\/nodefree.org\/wp-content\/themes\/v1","slide_speed":"5000","is_admin":"0","js_lang":{"copy_done":"\u590d\u5236\u6210\u529f\uff01","copy_fail":"\u6d4f\u89c8\u5668\u6682\u4e0d\u652f\u6301\u62f7\u8d1d\u529f\u80fd","confirm":"\u786e\u5b9a","qrcode":"\u4e8c\u7ef4\u7801","page_loaded":"\u5df2\u7ecf\u5230\u5e95\u4e86","no_content":"\u6682\u65e0\u5185\u5bb9","load_failed":"\u52a0\u8f7d\u5931\u8d25\uff0c\u8bf7\u7a0d\u540e\u518d\u8bd5\uff01","expand_more":"\u9605\u8bfb\u5269\u4f59 %s"},"poster":{"notice":"\u8bf7\u957f\u6309\u4fdd\u5b58\u56fe\u7247\uff0c\u5c06\u5185\u5bb9\u5206\u4eab\u7ed9\u66f4\u591a\u597d\u53cb","generating":"\u6b63\u5728\u751f\u6210\u6d77\u62a5\u56fe\u7247...","failed":"\u6d77\u62a5\u56fe\u7247\u751f\u6210\u5931\u8d25"},"video_height":"482","fixed_sidebar":"1","dark_style":"0","font_url":"\/\/googlefonts.wp-china-yes.net\/css2?family=Noto+Sans+SC:wght@400;500&display=swap"};
 /* ]]> */
 </script>
-<script type="a88177da37d1a62dcc5290bb-text/javascript" src="https://nodefree.org/wp-content/themes/v1/js/main.js?ver=6.14.1" id="main-js"></script>
-<script type="a88177da37d1a62dcc5290bb-text/javascript" src="https://nodefree.org/wp-content/themes/v1/themer/assets/js/icons-2.7.7.js?ver=6.14.1" id="wpcom-icons-js"></script>
-<script type="a88177da37d1a62dcc5290bb-text/javascript" src="https://cdn.onesignal.com/sdks/OneSignalSDK.js?ver=6.4.3&#039; async=&#039;async" id="remote_sdk-js"></script>
-<script type="a88177da37d1a62dcc5290bb-text/javascript">jQuery(function ($) { setup_share(1); });</script>
-<foreignObject><script src="/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="a88177da37d1a62dcc5290bb-|49" defer></script></foreignObject></body>
+<script type="8b87689351bfa67955c43d14-text/javascript" src="https://nodefree.org/wp-content/themes/v1/js/main.js?ver=6.14.1" id="main-js"></script>
+<script type="8b87689351bfa67955c43d14-text/javascript" src="https://nodefree.org/wp-content/themes/v1/themer/assets/js/icons-2.7.7.js?ver=6.14.1" id="wpcom-icons-js"></script>
+<script type="8b87689351bfa67955c43d14-text/javascript">jQuery(function ($) { setup_share(1); });</script>
+<foreignObject><script src="/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="8b87689351bfa67955c43d14-|49" defer></script></foreignObject></body>
 </html>
