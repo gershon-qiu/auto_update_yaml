@@ -3,7 +3,7 @@ currentmonth=$(date +%Y%m)
 currentmonths=$(date +%m)
 currentyears=$(date +%Y)
 filename=./nodefree.yaml
-urlpath=https://nodefree.org/dy/$currentyears/$currentmonth/$currentdate.yaml
+urlpath=https://nodefree.org/dy/$currentyears/$currentmonths/$currentdate.yaml
 
 echo $filename
 echo $urlpath
